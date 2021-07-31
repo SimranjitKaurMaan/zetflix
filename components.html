@@ -8,12 +8,14 @@
     <title>Components Library</title>
     <link href="/styles.css" rel="stylesheet" />
 </head>
-
 <body>
+    <h2>@hero image</h2>
+    <div class="hero-image-wrapper">
+        <img class="hero-image" src="/images/movie.svg">
+    </div>
+    <hr>
     <h1>Zetflix Component Library</h1>
     <p>This is a library which will make my Zetflix project have same look and feel.</p>
-
-    <hr>
     <h2>@typography</h2>
     <h1>This is the biggest heading</h1>
     <h2>This is the second biggest heading.</h2>
@@ -36,7 +38,6 @@
         <img class="boxart-img" src="/images/movie.svg">
     </div>
     <hr>
-
     <h2>@row</h2>
     <div class="row">
         <div class="row-header">This is a row header</div>
@@ -74,6 +75,102 @@
                 </div>
             </div>
         </div>
+    </div>
+    <hr>
+
+    <h2>@lists</h2>
+    <h3>unordered list</h3>
+    <p>This list will not have the bullet</p>
+    <ul class="list-non-bullet">
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ul>
+
+    <h3>unordered inline list</h3>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item one</li>
+        <li class="list-item-inline">Inline Item two</li>
+        <li class="list-item-inline">Inline Item three</li>
+    </ul>
+    <hr>
+
+    <h2>@nav</h2>
+    <nav class="navigation container">
+        <a class="nav-brand link" href="/">ZETFLIX</a>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">TV Shows</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Movies</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">New & Popular</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">My List</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+
+    <h2>@minimodal</h2>
+    <div class="modal-container">
+        <div class="boxart-container">
+            <img class="modal-img" src="/images/movie.svg">
+        </div>
+        <div class="modal-info-container">
+            <div class="button-controls-container">
+                <button class="primary-button"><span class="play-button has-icon"></span></button>
+                <button class="secondary-button"><span class="tick-button has-icon"></span></button>
+                <button class="secondary-button"><span class="like-button has-icon"></span></button>
+                <button class="secondary-button"><span class="unlike-button has-icon"></span></button>
+            </div>
+            <div class="video-meta-data-container">
+                <span class="match-score">99% Match</span>
+                <span class="maturity-rating">16+</span>
+                <span class="duration">12 Seasons</span>
+            </div>
+            <div class="tags-container">
+                <div class="tags-list">
+                    <span class="tags-item">• Sitcom</span>
+                    <span class="tags-item">• Comedy</span>
+                    <span class="tags-item">• Quirky</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <hr>
+    <h2>@footer</h2>
+    <div class="footer">
+        <div class="social-links">
+            <a href="/" target="_blank"><span class="facebook-link"></span></a>
+            <a href="/" target="_blank"><span class="instagram-link"></span></a>
+            <a href="/" target="_blank"><span class="twitter-link"></span></a>
+            <a href="/" target="_blank"><span class="youtube-link"></span></a>
+        </div>
+        <ul class="footer-links list-non-bullet">
+            <li class="footer-link-wrapper"><a href="/">Audio and Subtitles</a></li>
+            <li class="footer-link-wrapper"><a href="/">Audio Description</a></li>
+            <li class="footer-link-wrapper"><a href="/">Help Centre</a></li>
+            <li class="footer-link-wrapper"><a href="/">Gift Cards</a></li>
+            <li class="footer-link-wrapper"><a href="/">Media Centre</a></li>
+            <li class="footer-link-wrapper"><a href="/">Investor Relations</a></li>
+            <li class="footer-link-wrapper"><a href="/">Jobs</a></li>
+            <li class="footer-link-wrapper"><a href="/">Terms of Use</a></li>
+            <li class="footer-link-wrapper"><a href="/">Privacy</a></li>
+            <li class="footer-link-wrapper"><a href="/">Contact Us</a></li>
+
+        </ul>
+        <div class="footer-copyright">© 2020-2021 ZetFlix, Inc.
+        </div>
+    </div>
     <hr>
 </body>
+
 </html>

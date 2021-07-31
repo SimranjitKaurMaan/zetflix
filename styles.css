@@ -1,37 +1,226 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
     background-color: aliceblue;
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.boxart-container{
+a{
+    text-decoration: none;
+}
+.hero-image-wrapper{
+    position: relative;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.boxart-container {
+    background-color: cornflowerblue;
     border-radius: 0.5rem;
-    border: 1px solid black;
     max-width: fit-content;
     padding: 0.25rem;
     cursor: pointer;
     margin-bottom: 0.2rem;
 }
 
-.boxart-img{
+.boxart-img {
     max-width: 200px;
 }
 
-.row-content{
+.row-content {
     overflow: hidden;
     white-space: nowrap;
 }
-.row-header{
-  font-size: 15px;
-  font-weight: 700;
+
+.row-header {
+    font-size: 15px;
+    font-weight: 700;
 }
 
-.inline-block{
-   display: inline-block;
+.inline-block {
+    display: inline-block;
 }
 
-.gallery .row .row-content
-{
+.gallery .row .row-content {
     overflow: visible;
     white-space: unset;
 }
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0em;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0px;
+    color: #e5e5e5;
+}
+
+.link-active {
+    font-weight: bolder;
+    color: white;
+}
+
+.navigation {
+    background-color: black;
+}
+
+.nav-brand {
+    font-size: 1.8rem;
+    color: #e50914;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.nav-pills {
+    display: inline-block;
+    padding-inline-start: 2rem;
+}
+
+.modal-container {
+    background-color: cornflowerblue;
+    max-width: fit-content;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.modal-img {
+    width: 300px;
+}
+
+.modal-info-container {
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+
+.button-controls-container {
+    margin: 1rem;
+    padding-top: 1rem;
+    line-height: 1.2;
+}
+
+.tags-container {
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+
+.modal-info-container span {
+    margin: 0.5rem;
+}
+
+.button-controls-container button{
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.button-controls-container .secondary-button{
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.button-controls-container .has-icon{
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+}
+.button-controls-container span.play-button {
+    background: url(/images/play.svg) no-repeat top left;
+    background-size: contain;
+}
+
+.button-controls-container  span.tick-button {
+    background: url(/images/tick.svg) no-repeat top left;
+    background-size: contain;
+}
+
+.button-controls-container  span.like-button {
+    background: url(/images/like.svg) no-repeat top left;
+    background-size: contain;
+}
+
+.button-controls-container  span.unlike-button {
+    background: url(/images/unlike.svg) no-repeat top left;
+    background-size: contain;
+}
+
+.video-meta-data-container {
+    margin: 1rem;
+}
+
+.video-meta-data-container .match-score {
+    color: #46d369;
+    font-weight: 700;
+}
+
+.video-meta-data-container .maturity-rating {
+    border: 1px solid rgba(255, 255, 255, .4);
+    padding: 0.01em 0.4em;
+}
+
+.footer{
+    color: grey;
+    font-size: 13px;
+    text-align: left;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.footer-link-wrapper{
+    margin: 1rem;
+    text-align: left;
+    width: 30%;
+}
+.social-links .facebook-link{
+    background: url(/images/facebook.svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+.social-links .instagram-link{
+    background: url(/images/instagram.svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+.social-links .twitter-link{
+    background: url(/images/twitter.svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+.social-links .youtube-link{
+    background: url(/images/youtube.svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
 
