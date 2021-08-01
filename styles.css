@@ -26,10 +26,34 @@ a{
     padding-top: 1rem;
 }
 
-.hero-image{
+.hero-image{ 
    width: 100%;
    background-size: cover;
    background-position: center center;
+}
+
+.metainfo-layer{
+    position: absolute;
+    top:40%;
+    bottom: 60%;
+    left: 4%;
+}
+.logo-and-text{
+    color: white;
+}
+
+.logo-and-text .logo{
+    font-weight: bolder;
+    font-size: 3vw;;
+}
+
+.logo-and-text .synopsis{
+    font-weight: 400;
+    line-height: normal;
+    width: 36%;
+    font-size: 1.4vw;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%) ;
+    margin: 0.5vw 0 0 0;
 }
 
 .boxart-container {
