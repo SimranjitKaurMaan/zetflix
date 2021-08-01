@@ -9,11 +9,6 @@
     <link href="/styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h2>@hero image</h2>
-    <div class="hero-image-wrapper">
-        <img class="hero-image" src="/images/movie.svg">
-    </div>
-    <hr>
     <h1>Zetflix Component Library</h1>
     <p>This is a library which will make my Zetflix project have same look and feel.</p>
     <h2>@typography</h2>
@@ -116,6 +111,18 @@
             </li>
         </ul>
     </nav>
+    <hr>
+    <h2>@hero image</h2>
+    <div class="hero-image-container">
+        <img class="hero-image" src="/images/movie.svg">
+        <div class="metainfo-layer">
+            <div class="logo-and-text">This is Movie Title</div>
+            <div class="button-controls-container">
+                <a class="play-link" href="/"><span class="play-button has-icon" style="margin-right: 0.5rem;"></span>Play</a>
+                <a class="info-link" href="/"><span class="moreinfo-button has-icon" style="margin-right: 0.5rem;"></span>More Info</a>
+            </div>
+        </div>
+    </div>
     <hr>
 
     <h2>@minimodal</h2>

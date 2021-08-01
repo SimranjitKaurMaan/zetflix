@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
-    background-color: aliceblue;
+    background-color: rgb(221, 233, 243);
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -9,13 +9,17 @@ body {
 a{
     text-decoration: none;
 }
-.hero-image-wrapper{
-    position: relative;
-    top: 0;
-    left:0;
-    right:0;
-    bottom:0;
+
+.footer a{
+    color: #808080;
 }
+
+.hero-image{
+   width: 100%;
+   background-size: cover;
+   background-position: center center;
+}
+
 .boxart-container {
     background-color: cornflowerblue;
     border-radius: 0.5rem;
@@ -103,6 +107,23 @@ a{
     border-bottom-right-radius: 0.5rem;
 }
 
+.metainfo-layer .button-controls-container .play-link{
+   background-color: white;
+   border-radius: 0.5rem;
+   padding: 0.5rem 2rem;
+   color: black;
+   line-height: 1.2;
+   font-weight: bolder;
+}
+
+.metainfo-layer .button-controls-container .info-link{
+    background-color: rgba(109,109,110,0.7);
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    color: black;
+    line-height: 1.2;
+    font-weight: bolder;
+ }
 
 .button-controls-container {
     margin: 1rem;
@@ -134,6 +155,11 @@ a{
     display: inline-block;
     height: 15px;
     width: 15px;
+}
+
+.button-controls-container span.moreinfo-button{
+    background: url(/images/more-info.svg) no-repeat top left;
+    background-size: contain;
 }
 .button-controls-container span.play-button {
     background: url(/images/play.svg) no-repeat top left;
@@ -170,9 +196,11 @@ a{
 }
 
 .footer{
-    color: grey;
+    color: #808080;
     font-size: 13px;
     text-align: left;
+    background-color: black;
+    padding: 1rem;
 }
 
 .footer-links{
@@ -187,40 +215,55 @@ a{
     text-align: left;
     width: 30%;
 }
+
 .social-links .facebook-link{
     background: url(/images/facebook.svg) no-repeat top left;
     background-size: contain;
+    border-radius: 0.5rem;
+    background-color: #808080;
     cursor: pointer;
     display: inline-block;
     height: 50px;
     width: 50px;
+    margin: 1rem;
 }
 
 .social-links .instagram-link{
     background: url(/images/instagram.svg) no-repeat top left;
     background-size: contain;
+    border-radius: 0.5rem;
+    background-color: #808080;
     cursor: pointer;
     display: inline-block;
     height: 50px;
     width: 50px;
+    margin: 1rem;
 }
 
 .social-links .twitter-link{
     background: url(/images/twitter.svg) no-repeat top left;
     background-size: contain;
+    border-radius: 0.5rem;
+    background-color: #808080;
     cursor: pointer;
     display: inline-block;
     height: 50px;
     width: 50px;
+    margin: 1rem;
 }
 
 .social-links .youtube-link{
     background: url(/images/youtube.svg) no-repeat top left;
     background-size: contain;
+    border-radius: 0.5rem;
+    background-color: #808080;
     cursor: pointer;
     display: inline-block;
     height: 50px;
     width: 50px;
+    margin: 1rem;
 }
+
+
 
 
