@@ -51,13 +51,18 @@ a{
     white-space: nowrap;
 }
 
-.row-content .boxart-container{
+.row-content{
+    margin-top: 3rem;
+}
+
+.gallery .row-content .boxart-container{
     margin-top: 3rem;
 }
 
 .row-header {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 700;
+    margin-bottom: 0.3rem;
 }
 
 .inline-block {
@@ -223,7 +228,7 @@ a{
     color: #808080;
     font-size: 13px;
     text-align: left;
-    background-color: black;
+    background-color: #141414;;
     padding: 1rem;
 }
 
