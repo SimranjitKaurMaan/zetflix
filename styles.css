@@ -94,6 +94,16 @@ a {
     font-weight: 700;
 }
 
+.handle{
+    background: rgba(20,20,20,.7);
+    height: 140px;
+    width: 30px;
+    position: absolute;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    cursor: pointer;
+}
+
 .inline-block {
     display: inline-block;
 }
